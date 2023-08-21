@@ -1,5 +1,5 @@
 :root {
-	--blue-gradient: linear-gradient(to bottom, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%) center/cover no-repeat;
+	--blue-gradient: linear-gradient(to bottom, rgba(70,70,70,1) 3%, rgba(105,105,105,1) 10%, rgba(56,56,56,1) 17%, rgba(56,56,56,1) 27%, rgba(66,66,66,1) 89%, rgba(35,35,35,1) 100%) center/cover no-repeat;
 }
 
 body {
