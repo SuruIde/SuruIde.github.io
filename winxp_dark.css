@@ -44,6 +44,9 @@ nav .links{
 	border-left: 2px solid #383838;
 	border-right: 2px solid #383838;
 }
+nav .links a{
+	text-shadow: 0 0 0px #095DC3;
+}
 nav .info{
 	border-left: 2px solid #383838;
 	border-right: 2px solid #383838;
@@ -167,8 +170,8 @@ main {
 }
 .profile .f-col a {
 	white-space: nowrap;
-	border: 1px solid #003c74;
-	background: linear-gradient(180deg,#366EF3,#2D69F4 86%,#1A3EB4);
+	border: 1px solid #2D2D2D;
+	background: linear-gradient(180deg, rgba(101,101,101,1) 0%, rgba(66,66,66,1) 10%, rgba(66,66,66,1) 85%, rgba(40,40,40,1) 100%);
 	border-radius: 3px;
 	padding: .5em;
 	margin-left: .3em;
@@ -176,7 +179,7 @@ main {
 	color: #FFF;
 }
 .profile .f-col a:hover {
-	background: linear-gradient(180deg,#1C35B4,#2450D7 86%,#1A3EB4);
+	background: linear-gradient(180deg, rgba(60,60,60,1) 0%, rgba(84,84,84,1) 60%, rgba(80,80,80,1) 76%, rgba(80,80,80,1) 84%, rgba(40,40,40,1) 100%);
 	text-decoration: none;
 }
 .profile .url-info, .profile .profile-info {
@@ -316,4 +319,15 @@ main {
 .comment-replies{
 	border: 0;
 	border-left: 5px solid #ffbd2e;
+}
+.heading a {
+	color: #FFFFFF;
+}
+.profile .left .edit-link {
+	background: #FFF;
+	border-left: 2px solid #383838;
+	border-right: 2px solid #383838;
+}
+.profile .right. edit-link {
+	background: #E7E4CF;
 }
