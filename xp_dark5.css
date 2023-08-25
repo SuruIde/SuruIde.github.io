@@ -149,9 +149,6 @@ main {
 .profile .contact .heading h4 {
 	font-size: 0;
 }
-.profile .contact .inner {
-	overflow-y: scroll;
-}
 .profile .contact .inner, .profile .contact .inner .f-row, .profile .contact .inner .f-row .f-col {
 	display: flex;
 	margin: 0;
