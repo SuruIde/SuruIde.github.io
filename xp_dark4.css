@@ -140,7 +140,8 @@ main {
 }
 .profile .contact .heading {
 	width: 100px;
-	height 31.5px;
+	height: 31.5px;
+	background: none;
 	background-image: url('https://suruide.github.io/startbetter.png');
 	background-repeat: no-repeat; 
 	align-items: center;
