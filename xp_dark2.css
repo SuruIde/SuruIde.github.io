@@ -139,22 +139,14 @@ main {
 	background: var(--blue-gradient);
 }
 .profile .contact .heading {
-	background-image: url('https://suruide.github.io/startbetter.png')
-	display: flex;
+	width: 100px;
+	height 31.5px;
+	background-image: url('https://suruide.github.io/startbetter.png');
+	background-repeat: no-repeat; 
 	align-items: center;
 }
 .profile .contact .heading h4 {
 	font-size: 0;
-}
-.profile .contact .heading h4:after {
-	content: "💬 start";
-	font-size: 1.4rem;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-style: italic;
-	text-shadow: 2px 2px 5px #0007;
-	padding-right: 1.2rem;
-	white-space: nowrap;
 }
 .profile .contact .inner {
 	overflow-y: scroll;
