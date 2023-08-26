@@ -209,30 +209,10 @@ main {
 .left .table-section .details-table td p {
 	padding: .3em;
 }
-.profile .left .table-section:last-child .details-table tbody {
-	display: flex;
-}
 .profile .left .table-section:last-child .details-table tbody tr {
 	display: flex;
-	flex-direction: column;
-	flex: 1;
-	line-height: 0;
+	flex-direction: row;
 }
-.profile .left .table-section:last-child .details-table tbody tr td {
-	width: 100%!important;
-	text-align: center;
-	background: none;
-}
-.profile .left .table-section:last-child .details-table tbody tr td p a {
-	font-size: 0;
-	transition: all .3s
-}
-.profile .left .table-section:last-child .details-table tbody tr td p img {
-	font-size: 64px;
-	height: auto;
-	margin: 0;
-}
-
 .profile .right .blog-preview {
 	margin-top: 1em;
 	background: #FFF;
