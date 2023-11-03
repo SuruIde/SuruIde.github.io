@@ -163,6 +163,7 @@ main {
 	margin-left: .3em;
 	font-weight: normal;
 	color: #FFF;
+	width: 158px;
 }
 .profile .f-col a:hover {
 	background: linear-gradient(180deg, rgba(60,60,60,1) 0%, rgba(84,84,84,1) 60%, rgba(80,80,80,1) 76%, rgba(80,80,80,1) 84%, rgba(40,40,40,1) 100%);
